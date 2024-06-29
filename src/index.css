@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .p-nav {
+    font-size: 18px;
+  }
+  .basepage {
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 1rem;
+  }
+}
